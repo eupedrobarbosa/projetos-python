@@ -1,7 +1,8 @@
+print ('Olá, seja bem-vindo(a).')
+
+print ('Ok, vamos lá!')
+
 nome = input ('Qual seu nome?')
-idade = input ('Qual sua idade?')
-peso = input ('Quanto você pesa?')
+idade = input ('Qua sua idade?')
 
-print ('Confirmado..')
-
-print ('Seu nome é', nome + ',', idade + ' anos e', peso + 'kg')
+print ('Seu nome é', nome)
