@@ -1,8 +1,19 @@
-print ('Olá, seja bem-vindo(a).')
+mesangem01 = input ('Olá, tudo bme?')
 
-print ('Ok, vamos lá!')
+mensagem02 = input ('Que bom. Vamos lá?')
 
-nome = input ('Qual seu nome?')
-idade = input ('Qua sua idade?')
+print ('Certo!')
 
-print ('Seu nome é', nome)
+dia = input ('Que dia você nasceu?')
+mes = input ('Mês?')
+ano = input ('Ano?')
+
+print ('Certo, só para confirmar, você nasceu dia' , dia + ' de' , mes + ' de', ano)
+
+print ('OK')
+
+mensagem_nome = input ('Qual seu nome?')
+mensagem_idade = input ('Qual sua idade?')
+mensagem_estado_civil = input ('Qual seu estado civil?')
+
+print ('Certo, vou encaminhar seus dados e já começaremos sua entrevista')
