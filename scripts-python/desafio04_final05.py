@@ -9,3 +9,4 @@ peso = input ('Qual seu peso?')
 treino = input ('O que você treina?')
 
 print ('Então seu nome é', nome + ', ', idade + ', ', peso + ' e você treina', treino)
+@cold 
