@@ -1,11 +1,9 @@
-print ('Olá, seja bem-vindo ao mercadinho Pnzão!')
+print ('Hello, welcome by shop PnZ')
 
-mensagem01 = input ('Tudo bem senhor?')
-print ('Vamos lá?!')
+message01 = input ("What's your name?")
 
-nome = input ('Qual seu nome?')
-idade = input ('Qual sua idade?')
-peso = input ('Qual seu peso?')
-treino = input ('O que você treina?')
+print ('Oh, nice to meet you', message01)
 
-print ('Então seu nome é', nome + ', ', idade + ', ', peso + ' e você treina', treino)
+message_english = input ('Do you speak english?')
+
+message02 = input ('Wow, congratulations!')
