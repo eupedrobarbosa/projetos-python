@@ -1,5 +1,5 @@
-n1 = int (input ('Digite um número:'))
-n2 = int (input ('Digite outro número:'))
-s = n1*n2
+n1 = int (input ('Digite um valor'))
+n2 = int (input ('Digite outro valor'))
+soma = n1 * n2
 
-print ('A soma é {}'.format(s))
+print ('A multiplicação de {} e {} é igual a {}'.format(n1, n2, soma))
