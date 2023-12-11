@@ -1,11 +1,11 @@
-preco = int (input ('Digite um valor: '))
-qtd = int (input ('Digite a quantidade: '))
+preco = int (input ('Quanto custa esse produto?'))
+qtd = int (input ('Quantos vai querer?'))
 
 soma = preco*qtd
+desconto = 0.05
 
-desconto = 0.05 * soma
+resultado = soma*desconto
+preco_total = soma - resultado
 
-total = soma - desconto
-
-print ('O total com desconto de 5% é {}'.format(total))
+print ('O preço {} caiu para {}'.format(soma, preco_total))
 
