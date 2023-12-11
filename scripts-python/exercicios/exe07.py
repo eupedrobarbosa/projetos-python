@@ -1,7 +1,7 @@
-num = int (input ('Digite um valor'))
+numero = int (input ('Digite um valor!'))
 
-num2 = num*2
-num3 = num*3
-num4 = num**(1/2)
+n1 = numero*2
+n2 = numero*3
+n3 = numero**(1/2)
 
-print ('O valor {} tem seu dobro de {}, seu triplo {} e raiz quadrada de {:.2f}'.format(num, num2, num3, num4))
+print ('O dobro de {} é {}, o triplo é {} e a raiz quadrada é {:.2f}'.format(numero, n1,n2,n3))

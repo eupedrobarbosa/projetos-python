@@ -1,6 +1,9 @@
-valor = int (input ('Digite um valor em metros'))
+metro = int (input ('Digite um valor em metro'))
 
-cm = valor*100
-mil = valor*1000
+cm = 100
+mil = 1000
 
-print ('{} metros em centímetros é {} e em milímetros é {}'.format(valor, cm, mil))
+somacm = cm*metro
+somamil = mil*metro
+
+print ('{} em centímetros é {} e {} em milímetros'.format(metro, somacm, somamil))
