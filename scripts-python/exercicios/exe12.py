@@ -1,6 +1,6 @@
-carteira = int (input ('Quantos R$ você tem?'))
-dolar = 4.94
+carteira = int (input('Quantos reais você tem?'))
+dolar = 4.93
 
 resultado = carteira / dolar
 
-print ('Com R$ {} você consegue comprar {:.2f} doláres'.format(carteira, resultado))
+print ('Com {} você consegue {:.2f} doláres'.format(carteira, resultado))

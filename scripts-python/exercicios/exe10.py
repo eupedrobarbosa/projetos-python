@@ -1,9 +1,11 @@
-altura = float (input ('Digite a altura da parede: '))
-base = float (input ('Digite a base da parede: '))
+print ('Olá, seja bem-vindo! Loja de pinturas.')
 
-resultado = altura*base
-tinta = 2 #2 litros por metro
+altura = int (input ('Qual a altura da parede?'))
+base = int (input ('Qual a base da parede?'))
 
-gasto = resultado / tinta
+soma = altura*base
+tinta = 2
 
-print ('Será necessário usar {} litros para pintar a parede!'.format(gasto))
+gasto = soma / tinta
+
+print ('Será necessário usar {} litros para pintar a parede desejada de acordo com as informações passadas.'.format(gasto))

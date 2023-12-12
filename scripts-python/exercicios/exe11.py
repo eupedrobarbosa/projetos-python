@@ -1,4 +1,4 @@
-numero = int (input ('Digite um número para calcularmos sua tabela!'))
+numero = int (input('Digite um número para ver sua tabuada: '))
 
 n1 = numero*1
 n2 = numero*2
@@ -9,6 +9,7 @@ n6 = numero*6
 n7 = numero*7
 n8 = numero*8
 n9 = numero*9
+n10 = numero*10
 
 print ('{}x1 = {}'.format(numero, n1))
 print ('{}x2 = {}'.format(numero, n2))
@@ -19,3 +20,4 @@ print ('{}x6 = {}'.format(numero, n6))
 print ('{}x7 = {}'.format(numero, n7))
 print ('{}x8 = {}'.format(numero, n8))
 print ('{}x9 = {}'.format(numero, n9))
+print ('{}x10 = {}'.format(numero, n10))
