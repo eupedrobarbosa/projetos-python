@@ -1,6 +1,6 @@
 n = int (input ('Digite um valor: '))
 
-ns = n + 1
-na = n - 1
+ns = n+1
+na = n-1
 
-print ('Sucessor de {} ({}) e antecessor ({})'.format(n, ns, na))
+print ('O número escolhido foi {}, seu sucessor {} e antecessor {}'.format(n, ns, na))
