@@ -1,4 +1,3 @@
-
 partidas = int (input ('Quantas partidas jogadas?'))
 vitorias = int (input('Quantas partidas vencidas?'))
 
