@@ -1,7 +1,8 @@
-salario_atual = int (input ('Qual seu salário atual?'))
+salario_a = int (input ('Qual seu salário? '))
+
 aumento = 0.20
 
-total = salario_atual * aumento
-total2 = salario_atual + total
+salario_aa = salario_a*aumento
+salario_final = salario_a + salario_aa
 
-print ('Seu salário era {} e agora é {}'.format(salario_atual, total2))
+print ('Seu salário subiu de {} para {}'.format(salario_a, salario_final))
