@@ -1,6 +1,6 @@
-pj = int (input ('Quantas partidas jogadas: '))
-pv = int (input ('Quantas vitórias: '))
+partidas = int (input ('Partidas: '))
+vitorias = int (input ('Vitórias: '))
 
-soma = (pv / pj) * 100
+soma = (vitorias / partidas) * 100
 
-print ('Taxa de vitórias de: {:.1f}%'.format (soma))
+print ('Taxa de winrate: {:.2f}%'.format(soma))

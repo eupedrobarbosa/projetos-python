@@ -1,7 +1,7 @@
 numero = int (input ('Digite um valor: '))
 
-n1 = numero*2
-n2 = numero*3
-n3 = numero**(1/2)
+dobro = numero*2
+triplo = numero*3
+raiz = numero**(1/2)
 
-print ('{} tem seu dobro {}, seu tripo {} e raiz quadrada de {:.2f}'.format(numero, n1, n2,n3))
+print ('{} tem seu dobro: {}, triplo: {} e raiz: {:.2f}'.format(numero, dobro, triplo, raiz))

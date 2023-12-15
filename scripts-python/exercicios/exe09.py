@@ -1,9 +1,9 @@
-metro = int (input ('Digite uma valor em metro: '))
+metro = float (input ('Digite um valor em metros: '))
 
 cm = 100
-mil = 1000
+mm = 1000
 
-somacm = cm * metro
-somamil = mil * metro
+somacm = metro*cm
+somamm = metro*mm
 
-print ('{} em centímetros {}, em milímetros {}'.format(metro, somacm, somamil))
+print ('{} em cm: {:.0f}cm e em mm: {:.0f}mm'.format(metro, somacm, somamm))
