@@ -1,7 +1,7 @@
-salario = int (input ('Digite um salário: '))
-desconto = 0.20
+salario = float (input ('Qual seu salário? R$'))
+aumento = 0.20
 
-salario_desconto = salario*desconto
-total = salario + salario_desconto
+salario_cal = salario * aumento
+salario_total = salario + salario_cal
 
-print ('Seu salário de {} subiu para {}'.format(salario, total))
+print ('Seu salário subiu de {} para {}'.format(salario, salario_total))
