@@ -1,5 +1,6 @@
 import math
-#raiz
+
+#raiz quadrada
 
 num = int (input ('Digite um número: '))
 

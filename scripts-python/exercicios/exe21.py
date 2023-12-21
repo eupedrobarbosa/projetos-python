@@ -1,6 +1,6 @@
-import math 
-#parte inteira
+import math
 
 num = float (input ('Digite um número: '))
+#parte inteira do número
 
-print ('A parte inteira do {} é {}'.format(num, math.trunc(num)))
+print ('A parte inteiro de {} é {}'.format(num, math.trunc(num)))
