@@ -1,10 +1,9 @@
 import random
+#sorteio de times...
 
-#sorteio time
+poteA = ['Barcelona', 'Real Madrid', 'Liverpool', 'United']
+poteB = ['City', 'Chelsea', 'Newcastle', 'Bayern']
 
-poteA = ['Barcelona', 'Real Madrid']
-poteB = ['Liverpool', 'City']
-
-gols = [0, 1, 2, 3, 4, 5]
+gols = [0, 1, 2, 3, 4, 5, 6]
 
 print (random.choice(poteA), random.choice(gols), '-', random.choice(gols), random.choice(poteB))
