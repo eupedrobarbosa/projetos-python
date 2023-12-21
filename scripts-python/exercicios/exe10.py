@@ -1,6 +1,11 @@
-altura = float (input ('Digite a altura: '))
-base = float (input ('Digite a base: '))
-area = altura*base
-tinta = area / 2
+#Programa básico para calcular quantos litros precisamos para pintar determinada parede de acordo com as informações.
 
-print ('Será necessário usar {}L para pintar uma parede {:.0f} x {:.0f}'.format(tinta, altura, base))
+altura = float (input ('Digite a altura da parede: '))
+base = float (input ('Digite a base da parede: '))
+area = altura * base
+
+#2 litros de tinta por metro.
+litro = 2
+gasto = area / 2
+
+print ('Para pintar uma parede {:.2f} x {:.2f}, será necessário usar {} litros.'.format(altura, base, gasto ))
