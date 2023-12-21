@@ -1,11 +1,8 @@
 import random
-#lista sorteada
 
-n1 = input ('Nome: ')
-n2 = input ('Nome: ')
-n3 = input ('Nome: ')
-n4 = input ('Nome: ')
+#randonizando lista de pessoas.
+#p = pessoa
 
-nomes = [n1, n2, n3, n4]
+p = ['Pedro', 'Vanessa', 'Kaio', 'Orlando']
 
-print (random.sample(nomes, 4))
+print (random.sample(p, 4))

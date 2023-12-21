@@ -1,12 +1,16 @@
 import random
 
-#sorteio
+#Sorteio de prêmios
 
-pote1 = 5000
-pote2 = 100000000 #1 milhão
-pote3 = 10000
-pote4 = 1000
+lista_nomes = ['PythonA', 'PythonB', 'PythonC', 'PythonD']
 
-sorteio = [pote1, pote2, pote3, pote4]
+random_names = random.choice(lista_nomes)
 
-print ('Você ganhou um prêmio de R${}'.format(random.choice(sorteio)))
+p1 = int (input ('Digite o valor do prêmio A: R$'))
+p2 = int (input ('Digite o valor do prêmio B: R$'))
+p3 = int (input ('Digite o valor do prêmio C: R$'))
+p4 = int (input ('Digite o valor do prêmio D: R$'))
+
+pote = [p1, p2, p3, p4]
+
+print ('Parabéns {}, você ganhou o prêmio de R${:.2f}'.format(random_names, random.choice(pote)))

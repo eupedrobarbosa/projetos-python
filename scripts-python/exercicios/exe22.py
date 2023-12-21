@@ -1,14 +1,8 @@
 import random
-import math
 
-#sorteio
+#Sistema para mostrar o sorteado.
 #p = participante
 
-p1 = input ('Participante 01: ')
-p2 = input ('Participante 02: ')
-p3 = input ('Participante 03: ')
-p4 = input ('Participante 04: ')
+p = ['Pedro', 'João', 'Vanessa', 'Kaio']
 
-participantes = [p1, p2, p3, p4]
-
-print ('O participante sorteado foi {}'.format(random.choice(participantes)))
+print ('O ganhador foi {}'.format(random.choice(p)))
