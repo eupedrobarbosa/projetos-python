@@ -1,8 +1,8 @@
-import random
+from random import sample
 
-#randonizando lista de pessoas.
-#p = pessoa
+#embaralhando pessoas
+#n = nome
 
-p = ['Pedro', 'Vanessa', 'Kaio', 'Orlando']
+n = ['Pedro', 'João', 'Vanessa', 'Orlando']
 
-print (random.sample(p, 4))
+print (sample(n, 4))
