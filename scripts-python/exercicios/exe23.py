@@ -1,8 +1,5 @@
 from random import sample
 
-#embaralhando pessoas
-#n = nome
+nomes = ['Pedro', 'Kaio', 'Vanessa', 'Orlando']
 
-n = ['Pedro', 'João', 'Vanessa', 'Orlando']
-
-print (sample(n, 4))
+print (sample(nomes, 4))
