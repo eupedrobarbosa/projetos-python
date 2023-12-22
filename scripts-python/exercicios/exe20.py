@@ -1,6 +1,7 @@
-import math
-#raiz quadrada de um número usando a biblioteca math
+from math import sqrt
+
+#raiz quadrada de um número com importação math sqtr
 
 num = int (input ('Digite um número: '))
 
-print ('A raiz quadrada de {} é {}'.format(num, math.sqrt(num)))
+print ('A raiz quadrada de {} é {}'.format(num, sqrt(num)))

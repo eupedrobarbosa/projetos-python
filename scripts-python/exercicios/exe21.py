@@ -1,7 +1,7 @@
 from math import trunc
-#parte inteira de um número
-#podemos usar o from math import 
 
-num = float (input('Digite um número: '))
+#mostrar a parte inteira de um número
 
-print ('A parte inteira do número {} é {}'.format(num, trunc(num)))
+num = float (input ('Digite um número: '))
+
+print ('A parte inteira do valor {} é {}'.format(num, trunc(num)))

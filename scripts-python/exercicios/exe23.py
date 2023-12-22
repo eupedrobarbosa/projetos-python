@@ -1,5 +1,8 @@
 from random import sample
 
-nomes = ['Pedro', 'Kaio', 'Vanessa', 'Orlando']
+#organizando aleatoriamente um lista de nomes.
 
+nomes = ['Pedro', 'João', 'Vanessa', 'Orlando']
+
+print ('A lista ordenada aleatoriamente ficou: ')
 print (sample(nomes, 4))

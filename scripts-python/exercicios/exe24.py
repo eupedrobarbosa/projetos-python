@@ -1,16 +1,23 @@
 import random
 
-#Sorteio de prêmios
+#sorteando uma pessoa para ganhar um prêmio aleátorio.
 
-lista_nomes = ['PythonA', 'PythonB', 'PythonC', 'PythonD']
+premios = [
+    1000,
+    2000,
+    3000,
+    4000
+]
 
-random_names = random.choice(lista_nomes)
+win_premios = random.choice(premios)
 
-p1 = int (input ('Digite o valor do prêmio A: R$'))
-p2 = int (input ('Digite o valor do prêmio B: R$'))
-p3 = int (input ('Digite o valor do prêmio C: R$'))
-p4 = int (input ('Digite o valor do prêmio D: R$'))
+participante = [
+    'Pedro',
+    'Kaio',
+    'Vanessa',
+    'Orlando'
+]
 
-pote = [p1, p2, p3, p4]
+random_participantes = random.choice (participante)
 
-print ('Parabéns {}, você ganhou o prêmio de R${:.2f}'.format(random_names, random.choice(pote)))
+print ('O participante {} ganhou R${:.2f}'.format(random_participantes, win_premios))

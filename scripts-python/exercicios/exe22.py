@@ -1,8 +1,8 @@
-import random
+from random import choice
 
-#Sistema para mostrar o sorteado.
-#p = participante
+#sorteando uma pessoa.
 
-p = ['Pedro', 'João', 'Vanessa', 'Kaio']
+nomes = ['Pedro', 'Kaio', 'João', 'Maria']
+random_n = choice(nomes)
 
-print ('O ganhador foi {}'.format(random.choice(p)))
+print ('O ganhador foi {}'.format(random_n))
