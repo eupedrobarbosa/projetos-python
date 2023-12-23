@@ -1,6 +1,6 @@
 from math import sqrt
 
-#raiz quadrada de um número com importação math sqtr
+#raiz quadrada usando importação.
 
 num = int (input ('Digite um número: '))
 

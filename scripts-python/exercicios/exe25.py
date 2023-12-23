@@ -1,10 +1,19 @@
 from random import choice
 
-#sorteando confrotos e resultados.
+pote1 = [
+    'Arsenal', 
+    'Barcelona',
+    'Chelsea',
+    'Dortmund'
+]
 
-poteA = ['Barcelona', 'Real Madrid']
-poteB = ['Chelsea', 'City']
+pote2 = [
+    'Real Madrid',
+    'Liverpool',
+    'City',
+    'Bayern'
+]
 
 gols = [0, 1, 2, 3, 4, 5, 6]
 
-print (choice(poteA), choice(gols), '-', choice(gols), choice(poteB))
+print (choice(pote1), choice(gols), '-', choice(gols), choice(pote2))

@@ -1,5 +1,3 @@
-
-
 #calculando hipotenusa
 
 co = float (input ('Digite o cateto oposto: '))

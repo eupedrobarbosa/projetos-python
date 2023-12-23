@@ -1,8 +1,8 @@
 from random import choice
 
-#sorteando uma pessoa.
+#sorteio com random.
 
-nomes = ['Pedro', 'Kaio', 'João', 'Maria']
-random_n = choice(nomes)
+nomes = ['Pedro', 'Maria', 'Kaio', 'Vanessa']
+random_nomes = choice(nomes)
 
-print ('O ganhador foi {}'.format(random_n))
+print ('O vencedor foi {}'.format(random_nomes))
