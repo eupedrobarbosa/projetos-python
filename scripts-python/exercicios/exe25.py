@@ -1,19 +1,21 @@
 from random import choice
 
+#sorteado um duelo de clubes
+
 pote1 = [
-    'Arsenal', 
     'Barcelona',
+    'Arsenal',
     'Chelsea',
-    'Dortmund'
+    'Real Madrid'
 ]
 
 pote2 = [
-    'Real Madrid',
     'Liverpool',
     'City',
+    'Dortmund',
     'Bayern'
 ]
 
-gols = [0, 1, 2, 3, 4, 5, 6]
+goals = [0, 1, 2, 3, 4, 5, 6]
 
-print (choice(pote1), choice(gols), '-', choice(gols), choice(pote2))
+print (choice(pote1), choice(goals), '-', choice(goals), choice(pote2))

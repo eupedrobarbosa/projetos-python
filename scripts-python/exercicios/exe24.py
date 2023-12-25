@@ -1,20 +1,21 @@
 import random
 
-#sorteando vencedor e prêmios.
+#sorteando um participante
+#sorteando um prêmio para o participante
+
+nomes = [
+    'Pedro',
+    'Vanessa',
+    'Kaio'
+    'Orlando',
+    'Ágata'
+]
 
 premios = [
-    1000,
-    2000,
-    3000,
-    4000
+    10000, #10k
+    20000, #20k
+    10000000, #1 milhão
 ]
 
-names = [
-    'Pedro',
-    'Kaio',
-    'Vanessa',
-    'Orlando'
-]
-
-print ('O sorteado foi {}.'.format(random.choice(names)), end =' ')
-print ('E com isso venceu um prêmio de {}.'.format(random.choice(premios)))
+print ('O sorteado foi {}'.format(random.choice(nomes)))
+print ('E ganhou um prêmio de R${}'.format(random.choice(premios)))

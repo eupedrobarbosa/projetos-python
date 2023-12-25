@@ -1,6 +1,6 @@
 #conversão de celsius para fireheait
 
-c = int (input ('Digite um grau: '))
-f = (c *1.8) + 32
+c = int (input ('Digite graus em celsius: '))
+f = (c * 1.8) + 32
 
-print ('{} em celsius equivale a {} em fire.'.format(c,f))
+print ('{} graus em celsius equivale a {} em fireheait'.format(c, f))
