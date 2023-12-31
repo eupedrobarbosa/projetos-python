@@ -1,20 +1,19 @@
-bem_vindo = 'Olá, seja bem-vindo(a)!'
-print (bem_vindo)
+#Analisando alguns cálculos aritméticos.
 
-nome = str(input('Qual seu nome?'))
-print(nome, ', vamos calcular!')
+n1 = int (input ('Digite um número: '))
+n2 = int (input ('Digite outro número: '))
 
-n1 = int (input('Digite um valor: '))
-n2 = int (input('Digite outro valor: '))
-a = n1 + n2
-s = n1 - n2
-d = n1 / n2
-m = n1 * n2
-e = n1 ** n2
+a = n1 + n2 #adição
+s = n1 - n2 #subtração
+d = n1 / n2 #divisão
+m = n1 * n2 #multiplicação
+e = n1 ** n2 #exponencial
 
-print ('A adição de {}, subtração {}, divisão {}, multiplicação {} e exponencial {}'.format(a,s,d,m,e), end = ' ')
-
-print ('Obrigado!')
+print ('Adição: {}'.format(a))
+print ('Subtração: {}'.format(s))
+print ('Divisão: {}'.format(d))
+print ('Multiplicação: {}'.format(m))
+print ('Exponencial: {}'.format(e))
 
 
 

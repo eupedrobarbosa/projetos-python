@@ -1,5 +1,7 @@
-num1 = int (input('Digite um número'))
-num2 = int (input('Digite outro número'))
-soma = num1*num2
+#usando tipo primitivo para fazer cálculos aritméticos
 
-print ('A multiplicação de {}.{} é {}'.format(num1, num2, soma))
+n1 = int (input ('Digite um número: '))
+n2 = int (input ('Digite outro número: '))
+soma = n1 * n2 
+
+print ('A soma de {}x{} é {}.'.format(n1, n2, soma))
