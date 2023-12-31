@@ -1,9 +1,14 @@
-from math import hypot
+import math
 
-#calculando hipotenusa com importação
+#calculando seno, cosseno e tangente
 
-co = float (input ('Digite o cateto oposto: '))
-ca = float (input ('Digite o cateto adjente: '))
-hi = hypot(co, ca)
+angle = int (input ('Digite um ângulo: '))
+    
+sen = math.sin(math.radians(angle))
+print ('SENO: {:.2f}'.format(sen))
 
-print ('A hipotenusa vai ser {}'.format (hi))
+cos = math.cos(math.radians(angle))
+print ('COSSENO: {:.2f}'.format(cos))
+
+tan = math.tan(math.radians(angle))
+print ('TANGENTE: {:.2f}'.format(tan))
