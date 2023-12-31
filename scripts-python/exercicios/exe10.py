@@ -1,11 +1,10 @@
-#Programa básico para calcular quantos litros precisamos para pintar determinada parede de acordo com as informações.
+#Sistema básico para calcular o gasto de tinta para pintar uma parede.
 
-altura = float (input ('Digite a altura da parede: '))
-base = float (input ('Digite a base da parede: '))
-area = altura * base
+a = float (input ('Altura da parede: '))
+b = float (input ('Base da parede: '))
 
-#2 litros de tinta por metro.
-litro = 2
-gasto = area / 2
+area = a * b
+t = 2 #tinta
+g = area / t #gasto
 
-print ('Para pintar uma parede {:.2f} x {:.2f}, será necessário usar {} litros.'.format(altura, base, gasto ))
+print ('Para pintar uma parede {:.0f} x {:.0f}, será necessário usar {}L'.format(a, b, g))

@@ -1,9 +1,11 @@
-metro = float (input ('Digite um valor em metros: '))
+#Obtendo valores cm e mm em metros
+
+metros = int (input ('Digite uma metragem: '))
 
 cm = 100
 mm = 1000
 
-somacm = metro*cm
-somamm = metro*mm
+scm = cm * metros
+smm = mm * metros
 
-print ('{} em cm: {:.0f}cm e em mm: {:.0f}mm'.format(metro, somacm, somamm))
+print ('{}m corresponde a {}cm e {}mm'.format(metros, scm, smm))
