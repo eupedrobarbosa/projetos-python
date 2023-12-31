@@ -1,6 +1,7 @@
-carteira = int (input ('Digite um valor: '))
-dolar = 4.93
+#Convertendo reais em dólar.
 
-soma = carteira / dolar
+v = int (input ('Digite um valor: R$'))
+d = 4.85
+c = v / d #conversão
 
-print ('Com {} você consegue {:.2f} doláres!'.format(carteira, soma))
+print ('Com R$ {} você consegue {:.2f} doláres'.format(v, c))

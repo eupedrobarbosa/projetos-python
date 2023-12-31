@@ -1,5 +1,7 @@
-salario = float (input ('Digite seu salário: R$'))
-#aumento em 20% do salário
-aumento = salario + (salario * 20 / 100)
+s = float (input ('Digite seu sálario: R$'))
 
-print ('Seu salário subiu de R${:.2f} para R${:.2f}'.format(salario, aumento))
+#20% de aumento salarial
+
+a = s + (s * 20 / 100)
+
+print ('Seu salário subiu de R$ {} para R$ {}'.format(s, a))

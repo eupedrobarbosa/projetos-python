@@ -1,7 +1,10 @@
-preco = float (input ('Digite o preço: R$'))
-qtd = int (input ('Quantidade: '))
-soma = preco * qtd
-#desconto de 5%
-desconto = soma - (soma * 5 / 100)
+#Desconto
 
-print ('A compra deu R${:.2f}, e com desconto caiu para R${:.2f}'.format(soma, desconto))
+p = float (input ('Digite o preço do produto: R$'))
+q = int (input ('Digite a quantidade: '))
+s = p * q #soma
+
+#5% de desconto
+desconto = s - (s * 5 / 100)
+
+print ('A compra deu R$ {}, e com desconto ficou R$ {}'.format(s, desconto))
