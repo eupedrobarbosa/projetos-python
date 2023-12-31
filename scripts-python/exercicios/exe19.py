@@ -1,9 +1,6 @@
-dias = int (input ('Dias alugados: '))
-km = float (input ('Km rodados: '))
+d = int (input ('Quantos dias? '))
+a = 200 #R$ 200 por dia.
 
-aluguel = 60
-km_h = 0.15
+g = d * a
 
-resultado = (dias * aluguel) + (km * km_h)
-
-print ('O valor total resultou em R${:.2f}'.format (resultado))
+print ('Você ficou {} dias e terá que pagar R$ {}'.format(d, g))

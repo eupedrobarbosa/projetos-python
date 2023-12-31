@@ -1,6 +1,8 @@
-partidas = int (input ('Partidas: '))
-vitorias = int (input ('Vitórias: '))
+#Calculando taxa de vitórias.
 
-winrate = (vitorias / partidas) * 100
+p = int (input ('Partidas: '))
+v = int (input ('Vitórias: '))
 
-print ('A taxa de winrate é {:.2f}%'.format(winrate))
+s = (v / p) * 100
+
+print ('Taxa de vitória: {:.2f}'.format(s))
