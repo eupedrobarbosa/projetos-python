@@ -1,15 +1,13 @@
 from random import sample
 
-#organizando de forma aleatória
+#Ordenando uma lista de forma aleatória
 
 nomes = [
     'Pedro',
-    'Kaio',
+    'João',
     'Vanessa',
-    'Orlando'
+    'Kaio'
 ]
 
-r_names = sample(nomes, 4)
-
-print ('A ordem ficou: ')
-print (r_names)
+print ('A lista ficou assim: ')
+print (sample(nomes, 4))

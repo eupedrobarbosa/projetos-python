@@ -1,19 +1,15 @@
 from random import choice
 
-#sorteado um duelo de clubes
+#sorteando equipes and gols
 
 pote1 = [
-    'Barcelona',
-    'Arsenal',
-    'Chelsea',
+    'Barceloa',
     'Real Madrid'
 ]
 
 pote2 = [
-    'Liverpool',
     'City',
-    'Dortmund',
-    'Bayern'
+    'Arsenal'
 ]
 
 goals = [0, 1, 2, 3, 4, 5, 6]

@@ -1,21 +1,19 @@
-import random
+from random import choice
 
-#sorteando um participante
-#sorteando um prêmio para o participante
+#sorteando um ganhador e um prêmio para o mesmo
 
 nomes = [
     'Pedro',
+    'Kaio',
     'Vanessa',
-    'Kaio'
-    'Orlando',
-    'Ágata'
+    'Orlando'
 ]
 
 premios = [
-    10000, #10k
-    20000, #20k
-    10000000, #1 milhão
+    1000,
+    2000,
+    5000,
+    10000
 ]
 
-print ('O sorteado foi {}'.format(random.choice(nomes)))
-print ('E ganhou um prêmio de R${}'.format(random.choice(premios)))
+print ('O ganhador foi {} e recebeu um prêmio de R$ {}'.format(choice(nomes), choice(premios)))
