@@ -1,6 +1,9 @@
-d = int (input ('Quantos dias? '))
-a = 200 #R$ 200 por dia.
+#aluguel de casa por hora.
 
-g = d * a
+h = int (input ('Digite as horas que passou: '))
 
-print ('Você ficou {} dias e terá que pagar R$ {}'.format(d, g))
+a = 150
+
+soma = h * a
+
+print ('Você passou {}h, portanto terá que pagar R$ {}'.format(h,soma))
