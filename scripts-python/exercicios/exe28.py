@@ -1,6 +1,5 @@
 #Sistema de cálculos com aluguel, financeiro, etc.
 
-import math
 import random
 
 #salario
