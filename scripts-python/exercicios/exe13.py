@@ -1,6 +1,6 @@
 import pygame
 
-#músicas com importação
+#tocando música com importações
 
 pygame.init()
 pygame.mixer.music.load('scripts-python\exercicios\kerosene.mp3')
