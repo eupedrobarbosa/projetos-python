@@ -5,4 +5,4 @@ v = int (input ('Vitórias: '))
 
 s = (v / p) * 100
 
-print ('Taxa de vitória: {:.2f}'.format(s))
+print (f'Taxa de vitória: {s}')

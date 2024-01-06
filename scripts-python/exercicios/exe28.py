@@ -40,7 +40,7 @@ kmr = float (input ('Digite a quantidade de km rodados: '))
 
 gasto = (kmr / km) * comb
 
-print ('GASTO COM COMBUSTÍVEL: R$ {:.2f}'.format(gasto))
+print (f'Gasto com combustível: R$ {gasto}')
 
 print ('-' * 20)
 
