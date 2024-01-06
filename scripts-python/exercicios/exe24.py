@@ -16,4 +16,4 @@ premios = [
     10000
 ]
 
-print ('O ganhador foi {} e recebeu um prêmio de R$ {}'.format(choice(nomes), choice(premios)))
+print (f'O ganhador foi {choice(nomes)} e recebeu um prêmio de R$ {choice(premios)}')
