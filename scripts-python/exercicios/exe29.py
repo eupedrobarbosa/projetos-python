@@ -1,30 +1,18 @@
-#sistema para calcular quantidades de pisos e caixas para cobrir um área.
-
-#Informações do piso
+#sistema para verificar quantas caixas de piso necessárias para cobrir uma área.
 
 from math import ceil
 
-cp = float (input ('Digite o comprimento do piso: '))
-lp = float (input ('Digite a largura do piso: '))
-qtd_por_caixa = int (input ('Digite a quantidade peças por caixa: '))
-ap = cp * lp #
+com = float (input ('Digite o comprimento da área: '))
+lar = float (input ('Digite a largura da área: '))
 
-print (f'm² do piso: {ap :.2f}')
+area = com * lar #área total
 
-#informações da área
+#informações do piso
 
-comprimento = float (input ('Digite o comprimento: '))
-largura = float (input ('Digite a largura: '))
-at = comprimento * largura
+metro = int (input ('Digite o metro da caixa: '))
 
-print (f'Área total: {at}m²')
+caixas =  area / metro
 
-#Quantidade de peças necessárias
-
-qtd = at / ap
-
-print (f'Será necessário usar {ceil(qtd)} peças.')
-
-qtd_caixas = qtd / qtd_por_caixa
-
-print (f'Será necessário comprar {qtd_caixas :.0f} caixas')
+print (f'Área total: {area :.2f}m²')
+print (f'Piso: {metro}m²')
+print (f'Será necessário comprar {ceil(caixas)} caixas para cobrir uma área de {area :.2f}²')
